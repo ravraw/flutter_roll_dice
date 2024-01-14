@@ -16,4 +16,5 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 ## Progress
-<img src="https://github.com/ravraw/flutter_roll_dice/assets/32376706/99ffc5e1-b4e1-4a87-9150-f967ca1816c7" width="200" height="auto"/>
+
+<img src="https://github.com/ravraw/flutter_roll_dice/assets/32376706/99ffc5e1-b4e1-4a87-9150-f967ca1816c7" width="200" height="auto" alt="day_1"/>
