@@ -5,13 +5,13 @@ void main() {
     const MaterialApp(
       home: Scaffold(
           // backgroundColor: Color.fromARGB(255, 229, 102, 93),
-          body: MyApp()),
+          body: FlutterRollDice()),
     ),
   );
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class FlutterRollDice extends StatelessWidget {
+  const FlutterRollDice({super.key});
 
   @override
   Widget build(BuildContext context) {
