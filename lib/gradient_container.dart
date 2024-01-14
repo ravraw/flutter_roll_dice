@@ -18,6 +18,6 @@ class GradiantContainer extends StatelessWidget {
               end: endAlignment,
               colors: [colorOne, colorTwo]),
         ),
-        child: const StyledText());
+        child: StyledText("Flutter Roll Dice"));
   }
 }
