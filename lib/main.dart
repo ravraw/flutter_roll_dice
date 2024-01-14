@@ -16,7 +16,13 @@ void main() {
                 ]),
           ),
           child: const Center(
-            child: Text("Hello World!!!"),
+            child: Text(
+              "Flutter Roll Dice",
+              style: TextStyle(
+                fontSize: 24,
+                color: Color.fromARGB(255, 255, 255, 253),
+              ),
+            ),
           ),
         ),
       ),
