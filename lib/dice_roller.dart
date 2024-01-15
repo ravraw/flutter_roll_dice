@@ -10,16 +10,16 @@ class DiceRoller extends StatefulWidget {
 }
 
 class _DiceRollerState extends State<DiceRoller> {
+  var diceImage = 'assets/images/dice-6.png';
+
+  void rollDice() {
+    setState(() {
+      diceImage = 'assets/images/dice-4.png';
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
-    var diceImage = 'assets/images/dice-2.png';
-
-    void rollDice() {
-      setState(() {
-        diceImage = 'assets/images/dice-4.png';
-      });
-    }
-
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
@@ -32,7 +32,7 @@ class _DiceRollerState extends State<DiceRoller> {
             foregroundColor: Colors.white,
             textStyle: const TextStyle(fontSize: 28),
           ),
-          child: const Text('Roll DDice'),
+          child: const Text('Roll Dice'),
         )
       ],
     );
